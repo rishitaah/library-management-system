@@ -1,0 +1,58 @@
+{
+    "users":[
+        {
+          "id": 1,
+          "name": "Rishita S",
+          "email": "rishita@example.com",
+          "role": "student",
+          "borrowedBooks": [
+            {
+              "bookId": 2,
+              "issuedDate": "2025-08-20",
+              "returnDate": "2025-09-05"
+            }
+          ],
+          "subscriptionType": "basic",
+          "subscriptionDate": "2025-01-15"
+        },
+        {
+          "id": 2,
+          "name": "Arjun Kumar",
+          "email": "arjun.k@example.com",
+          "role": "student",
+          "borrowedBooks": [],
+          "subscriptionType": "standard",
+          "subscriptionDate": "2025-03-10"
+        },
+        {
+          "id": 3,
+          "name": "Meera Iyer",
+          "email": "meera.iyer@example.com",
+          "role": "librarian",
+          "borrowedBooks": [],
+          "subscriptionType": "premium",
+          "subscriptionDate": "2024-12-01"
+        },
+        {
+          "id": 4,
+          "name": "Aditya Sharma",
+          "email": "aditya.s@example.com",
+          "role": "student",
+          "borrowedBooks": [
+            {
+              "bookId": 1,
+              "issuedDate": "2025-08-28",
+              "returnDate": "2025-09-12"
+            },
+            {
+              "bookId": 4,
+              "issuedDate": "2025-08-30",
+              "returnDate": "2025-09-15"
+            }
+          ],
+          "subscriptionType": "basic",
+          "subscriptionDate": "2025-05-20"
+        }
+      ]
+      
+}

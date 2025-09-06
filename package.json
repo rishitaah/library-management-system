@@ -1,0 +1,26 @@
+{
+  "name": "library-management-system",
+  "version": "1.0.0",
+  "description": "commiting by Rishita     This is a Library Management API Backend for the management of users and the books",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishitaah/library-management-system.git"
+  },
+  "author": "Rishita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rishitaah/library-management-system/issues"
+  },
+  "homepage": "https://github.com/rishitaah/library-management-system#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
