@@ -56,7 +56,9 @@ To restore node modules and package-lock.json --> npm i/npm install
 
 git add .
 git status
-git commin -m "Initial Set Up"
+git commit -m "Initial Set Up"
 git push
 
-git checkout -b "Initial Set Up"
+git checkout "Inital Set Up"
+git checkout -b "Inital Set Up"
+git status
