@@ -1,5 +1,5 @@
 # library-management-system
-    commiting by Rishita
+    Committed by Rishita
     This is a Library Management API Backend for the management of users and the books
 
 # Routes and the Endpoints
@@ -52,3 +52,11 @@ npm i nodemon --save-dev
 npm run dev
 
 To restore node modules and package-lock.json --> npm i/npm install
+
+
+git add .
+git status
+git commin -m "Initial Set Up"
+git push
+
+git checkout -b "Initial Set Up"
