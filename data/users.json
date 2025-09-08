@@ -1,22 +1,18 @@
 {
     "users":[
         {
-          "id": 1,
+          "id": "1",
           "name": "Rishita S",
           "email": "rishita@example.com",
           "role": "student",
-          "borrowedBooks": [
-            {
-              "bookId": 2,
-              "issuedDate": "2025-08-20",
-              "returnDate": "2025-09-05"
-            }
-          ],
+          "bookId": 2,
+          "issuedDate": "2025-08-20",
+          "returnDate": "2025-09-05",
           "subscriptionType": "basic",
           "subscriptionDate": "2025-01-15"
         },
         {
-          "id": 2,
+          "id": "2",
           "name": "Arjun Kumar",
           "email": "arjun.k@example.com",
           "role": "student",
@@ -25,7 +21,7 @@
           "subscriptionDate": "2025-03-10"
         },
         {
-          "id": 3,
+          "id": "3",
           "name": "Meera Iyer",
           "email": "meera.iyer@example.com",
           "role": "librarian",
@@ -34,7 +30,7 @@
           "subscriptionDate": "2024-12-01"
         },
         {
-          "id": 4,
+          "id": "4",
           "name": "Aditya Sharma",
           "email": "aditya.s@example.com",
           "role": "student",

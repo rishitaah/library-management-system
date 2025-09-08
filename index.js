@@ -1,8 +1,16 @@
 const express = require("express");
+//const {users} = require("./data/users.json")
+
+const usersRouter = require("./routes/users.js");
+const booksRouter = require("./routes/books.js");
+
 const app = express();
 
 const PORT=8081;
 app.use(express.json());
+
+app.use("/users",usersRouter);
+app.use("/books",booksRouter);
 
 app.get("/",(req,res)=>{
     res.status(200).json({
