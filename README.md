@@ -62,3 +62,5 @@ git push
 git checkout "Inital Set Up"
 git checkout -b "Inital Set Up"
 git status
+git commit -m "dy 1"
+git push --set-upstream origin Inital-Set-Up
